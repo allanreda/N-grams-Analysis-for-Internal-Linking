@@ -5,7 +5,8 @@ This script conducts an N-Grams analysis to improve internal linking between web
 
 ## Functionality
 The script operates in several key steps: First it extracts text content from each URL and preprocesses this data by removing stopwords, punctuation, and performing other cleaning operations. It then generates n-grams from the cleaned text and deduplicates them to focus on unique content markers. The core functionality involves comparing these n-gram sets across URLs to find matches, suggesting where internal links could be beneficially created. The process ends by ranking these matches to prioritize linking suggestions and exporting the results to Excel for further analysis. The end result of the script is a DataFrame that look like this:  
-![image](https://github.com/allanreda/N-Grams-Analysis-for-Internal-Linking/assets/89948110/c12ccaa1-b875-415d-a58c-b5416030e35b)
+![image](https://github.com/allanreda/N-grams-Analysis-for-Internal-Linking/assets/89948110/d900b57e-d071-424c-8dbc-06e1bd00f887)
+
 
 
 ## Technologies
